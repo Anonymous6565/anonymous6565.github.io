@@ -13,16 +13,13 @@
   <script>
                 let mouseX = event.clientX;
                 let mouseY = event.clientY;
-                const star1 = document.createElement('div');
-                star1.className = 'star1';
-                star1.style.left = Math.random() * 1920;
-                star1.style.top = Math.random() * 1080;
-                document.body.appendChild(star1);
-                const star2 = document.createElement('div');
-                star2.className = 'star2';
-                star2.style.left = Math.random() * 1920;
-                star2.style.top = Math.random() * 1080;
-                document.body.appendChild(star2);
+                for (let i = 0; i < 15; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 1920;
+                particle.style.top = Math.random() * 1080;
+                document.body.appendChild(particle);
+            }
                 console.log('Mouse X:', mouseX);
                 console.log('Mouse X:', mouseX);
                 
