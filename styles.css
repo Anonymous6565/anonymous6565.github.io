@@ -8,6 +8,18 @@
     50% {left: 25px; width:0px; height: 0px;}
     100% {left: 200px; width: 175px; height: 175px;}
 }
+.star1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+}
+.star2 { 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+}
 .image1 {
       position: relative;
       animation-name: animation1;
