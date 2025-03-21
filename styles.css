@@ -5,7 +5,7 @@
 }
 @keyframes animation2 {
     0% {left: 200px; width: 175px; height: 175px;}
-    50% {left: 25px; width:0px; height: 0px;}
+    50% {left: 50px; width:0px; height: 0px;}
     100% {left: 200px; width: 175px; height: 175px;}
 }
 .star1 {
